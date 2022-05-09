@@ -121,6 +121,18 @@ Publicar as mudanças
 git flow feature publish documentation
 ```
 
+Testar e finalizar a feature
+```sh
+git flow feature finish documentation
+```
+
+Resolver possíveis conflitos com a *branch* develop
+
+Publicar a develop
+```sh
+git push
+```
+
 ## 5. Criar uma nova versão
 
 Gerar uma nova *release* de acordo com a versionamento semântico **MAJOR**.*minor*.patch.
