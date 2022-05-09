@@ -124,9 +124,21 @@ git flow feature publish documentation
 Testar e finalizar a feature
 ```sh
 git flow feature finish documentation
+
+Merge branch 'feature/documentation' into develop
 ```
 
 Resolver possíveis conflitos com a *branch* develop
+
+Publicar a develop
+```sh
+git push
+```
+
+Se a *branch* develop não existir remotamente ainda é necessário definir a referência no repositório remoto
+```sh
+git push --set-upstream origin develop
+```
 
 Publicar a develop
 ```sh
