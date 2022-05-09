@@ -161,3 +161,10 @@ Homologar a nova funcionalidade e finalizar a versão
 ```sh
 git flow release finish v0.1.0
 ```
+
+> Escrever uma mensagem simples e explicativa das mudanças da release!
+
+Publicar as *tags*
+```sh
+git push origin --tags
+```
