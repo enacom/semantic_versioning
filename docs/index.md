@@ -172,11 +172,6 @@ Se a *branch* develop não existir remotamente será necessário definir a refer
 git push --set-upstream origin develop
 ```
 
-Publicar a develop
-```sh
-git push
-```
-
 ## 5. Criar uma nova versão
 
 Gerar uma nova *release* de acordo com a versionamento semântico **MAJOR**.*minor*.patch. Como estamos adicionando uma nova funcionalidade mantendo compatibilidade, alteramos o *minor*.
@@ -191,6 +186,32 @@ git flow release publish v0.1.0
 
 > Caso sejam necessárias correções, de acordo com o versionamento semântico temos que alterar o `patch` da versão. Exemplo: `v0.1.1`.
 
+---
+
+Na ENACOM utilizamos a *branch* `staging` para a versão de homologação, portanto é necessário criar, atualizar com a release atual e publicar essa branch.
+
+Criar *branch* `staging`
+```sh
+git branch staging
+```
+
+Todas as mudanças na release precisam ir para a `staging` também.
+```sh
+git merge release/v0.1.0
+```
+
+Publicar as mudanças na staging
+```sh
+git push
+```
+
+Se a *branch* staging não existir remotamente será necessário definir a referência no repositório remoto
+```sh
+git push --set-upstream origin staging
+```
+
+---
+
 Homologar a nova funcionalidade e finalizar a versão
 ```sh
 git flow release finish v0.1.0
@@ -202,3 +223,25 @@ Publicar as *tags*
 ```sh
 git push origin --tags
 ```
+
+Publicar todas as mudanças
+
+```sh
+git checkout develop
+git push
+```
+
+```sh
+git checkout staging
+git push
+```
+
+```sh
+git checkout main
+git push
+```
+
+### Atualizar a versão de desenvolvimento
+No início de um novo desenvolvimento é importante atualizar a versão semanticamente no arquivo de configuração `pyproject.toml`.
+
+> Podemos aproveitar para melhorar os metadados do projeto também!
