@@ -330,7 +330,7 @@
         
           <li class="md-nav__item">
   <a href="#ambiente-virtual-e-mkdocs" class="md-nav__link">
-    Ambiente virtual e mkdocs
+    Ambiente virtual e MkDocs
   </a>
   
 </li>
@@ -459,7 +459,7 @@
         
           <li class="md-nav__item">
   <a href="#ambiente-virtual-e-mkdocs" class="md-nav__link">
-    Ambiente virtual e mkdocs
+    Ambiente virtual e MkDocs
   </a>
   
 </li>
@@ -560,61 +560,97 @@ versão de Correção(PATCH): quando corrigir falhas mantendo compatibilidade.
 <p>Criar nova <em>branch</em> em <code>feature</code> nova funcionalidade, de documentação, por exemplo.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git flow feature start documentation
 </code></pre></div>
-<h3 id="ambiente-virtual-e-mkdocs">Ambiente virtual e mkdocs</h3>
-<p>Vídeo de referência: <a href="https://www.youtube.com/watch?v=GW6nAJ1NHUQ">Documentado projetos com MkDocs - Live de Python #189</a></p>
-<p>Ativar o ambiente virtual e instalar as dependências
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>poetry shell
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>poetry install
+<h3 id="ambiente-virtual-e-mkdocs">Ambiente virtual e MkDocs</h3>
+<p>Vídeos e documentações de referência:</p>
+<ul>
+<li>Poetry:<ul>
+<li><a href="https://www.youtube.com/watch?v=ZOSWdktsKf0">Gerenciando pacotes e ambientes com Poetry - Live de Python #179</a></li>
+<li><a href="https://python-poetry.org/docs/">Documentação do Poetry</a></li>
+</ul>
+</li>
+<li>MkDocs e tema Material<ul>
+<li><a href="https://www.youtube.com/watch?v=GW6nAJ1NHUQ">Documentado projetos com MkDocs - Live de Python #189</a></li>
+<li><a href="https://squidfunk.github.io/mkdocs-material/creating-your-site/">Criação do site com o tema Material</a></li>
+<li><a href="https://www.mkdocs.org/user-guide/configuration/">Configuração do MkDocs</a></li>
+</ul>
+</li>
+</ul>
+<hr />
+<p>Inicializar o ambiente virtual com poetry
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>poetry init --no-interaction
+</code></pre></div>
+Será criado o arquivo de configuração <code>pyproject.toml</code></p>
+<blockquote>
+<p>Edite o arquivo <strong>pyproject.toml</strong> e atualize os metadados sempre que mudar a versão.</p>
+</blockquote>
+<p>Ativar o ambiente virtual
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>poetry shell
+</code></pre></div></p>
+<p>Adicionar as dependências
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>poetry add MkDocs MkDocs-material
+</code></pre></div></p>
+<p>Instalar as dependências
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>poetry install
 </code></pre></div></p>
 <p>Criar novo projeto de documentação, a partir do diretório corrente
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>mkdocs new .
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>MkDocs new .
 </code></pre></div>
-Será criado o diretório <code>docs</code> e o arquivo de configuração <code>mkdocs.yml</code></p>
+Será criado o diretório <code>docs</code> e o arquivo de configuração <code>mkdocs.yml</code>.</p>
+<blockquote>
+<p>Editar o <strong>mkdocs.yml</strong> e incluir ou atualizar as configurações das páginas de documentação.</p>
+</blockquote>
 <p>Caso já exista o arquivo de configuração, será informado que o projeto já exite
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>mkdocs new .
-<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>INFO     -  Project already exists.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>MkDocs new .
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>INFO     -  Project already exists.
 </code></pre></div></p>
+<p>Editar o arquivo <code>docs/index.md</code> com os dados principais da documentação. Criar outros arquivos no diretório <code>docs</code> para organizar melhor os assuntos.</p>
 <h3 id="desenvolvimento-e-controle-de-versao">Desenvolvimento e controle de versão</h3>
 <p>Desenvolver a funcionalidade, visualizar e adicionar as mudanças
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git add docs mkdocs.yml
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>git add docs mkdocs.yml
 </code></pre></div></p>
 <p>Confirmar as mudanças para uma nova versão
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>git commit
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>git commit
 </code></pre></div>
-Um editor de texto irá abrir para colocar uma mensagem clara sobre as mudanças</p>
+Um editor de texto irá abrir para colocar uma mensagem clara sobre as mudanças.</p>
+<blockquote>
+<p>Acesse <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration/#_core_editor">alterar o editor padrão do git</a>, caso queira mudar o editor para incluir as mensagem de <em>commit</em>.</p>
+</blockquote>
 <p>Publicar as mudanças
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>git flow feature publish documentation
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>git flow feature publish documentation
 </code></pre></div></p>
 <p>Testar e finalizar a feature
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>git flow feature finish documentation
-<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>
-<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>Merge branch <span class="s1">&#39;feature/documentation&#39;</span> into develop
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>git flow feature finish documentation
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>Merge branch <span class="s1">&#39;feature/documentation&#39;</span> into develop
 </code></pre></div></p>
 <p>Resolver possíveis conflitos com a <em>branch</em> develop</p>
-<p>Publicar a develop
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>git push
+<p>Publicar as mudanças na develop
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>git push
 </code></pre></div></p>
-<p>Se a <em>branch</em> develop não existir remotamente ainda é necessário definir a referência no repositório remoto
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>git push --set-upstream origin develop
+<p>Se a <em>branch</em> develop não existir remotamente será necessário definir a referência no repositório remoto
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>git push --set-upstream origin develop
 </code></pre></div></p>
 <p>Publicar a develop
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>git push
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>git push
 </code></pre></div></p>
 <h2 id="5-criar-uma-nova-versao">5. Criar uma nova versão</h2>
-<p>Gerar uma nova <em>release</em> de acordo com a versionamento semântico <strong>MAJOR</strong>.<em>minor</em>.patch.
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>git flow release start v0.1.0
+<p>Gerar uma nova <em>release</em> de acordo com a versionamento semântico <strong>MAJOR</strong>.<em>minor</em>.patch. Como estamos adicionando uma nova funcionalidade mantendo compatibilidade, alteramos o <em>minor</em>.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>git flow release start v0.1.0
 </code></pre></div></p>
 <p>Publicar a nova <em>release</em>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>git flow release publish v0.1.0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>git flow release publish v0.1.0
 </code></pre></div></p>
+<blockquote>
+<p>Caso sejam necessárias correções, de acordo com o versionamento semântico temos que alterar o <code>patch</code> da versão. Exemplo: <code>v0.1.1</code>.</p>
+</blockquote>
 <p>Homologar a nova funcionalidade e finalizar a versão
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>git flow release finish v0.1.0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>git flow release finish v0.1.0
 </code></pre></div></p>
 <blockquote>
 <p>Escrever uma mensagem simples e explicativa das mudanças da release!</p>
 </blockquote>
 <p>Publicar as <em>tags</em>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>git push origin --tags
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>git push origin --tags
 </code></pre></div></p>
 
               
