@@ -190,7 +190,12 @@ git flow release publish v0.1.0
 
 Na ENACOM utilizamos a *branch* `staging` para a versão de homologação, portanto é necessário criar, atualizar com a release atual e publicar essa branch.
 
-Criar *branch* `staging`
+Acessar a *branch* `staging`
+```sh
+git checkout staging
+```
+
+Caso ela não exista, criar *branch* `staging`
 ```sh
 git branch staging
 ```
