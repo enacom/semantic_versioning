@@ -82,26 +82,56 @@ Criar nova *branch* em `feature` nova funcionalidade, de documentação, por exe
 git flow feature start documentation
 ```
 
-### Ambiente virtual e mkdocs
-Vídeo de referência: [Documentado projetos com MkDocs - Live de Python #189](https://www.youtube.com/watch?v=GW6nAJ1NHUQ)
+### Ambiente virtual e MkDocs
+Vídeos e documentações de referência:
 
-Ativar o ambiente virtual e instalar as dependências
+- Poetry:
+    - [Gerenciando pacotes e ambientes com Poetry - Live de Python #179](https://www.youtube.com/watch?v=ZOSWdktsKf0)
+    - [Documentação do Poetry](https://python-poetry.org/docs/)
+- MkDocs e tema Material
+    - [Documentado projetos com MkDocs - Live de Python #189](https://www.youtube.com/watch?v=GW6nAJ1NHUQ)
+    - [Criação do site com o tema Material](https://squidfunk.github.io/mkdocs-material/creating-your-site/)
+    - [Configuração do MkDocs](https://www.mkdocs.org/user-guide/configuration/)
+
+---
+
+Inicializar o ambiente virtual com poetry
+```sh
+poetry init --no-interaction
+```
+Será criado o arquivo de configuração `pyproject.toml`
+
+> Edite o arquivo **pyproject.toml** e atualize os metadados sempre que mudar a versão.
+
+Ativar o ambiente virtual
 ```sh
 poetry shell
+```
+
+Adicionar as dependências
+```sh
+poetry add MkDocs MkDocs-material
+```
+
+Instalar as dependências
+```sh
 poetry install
 ```
 
 Criar novo projeto de documentação, a partir do diretório corrente
 ```sh
-mkdocs new .
+MkDocs new .
 ```
-Será criado o diretório `docs` e o arquivo de configuração `mkdocs.yml`
+Será criado o diretório `docs` e o arquivo de configuração `mkdocs.yml`.
+> Editar o **mkdocs.yml** e incluir ou atualizar as configurações das páginas de documentação.
 
 Caso já exista o arquivo de configuração, será informado que o projeto já exite
 ```sh
-mkdocs new .
+MkDocs new .
 INFO     -  Project already exists.
 ```
+
+Editar o arquivo `docs/index.md` com os dados principais da documentação. Criar outros arquivos no diretório `docs` para organizar melhor os assuntos.
 
 ### Desenvolvimento e controle de versão
 
@@ -114,7 +144,9 @@ Confirmar as mudanças para uma nova versão
 ```sh
 git commit
 ```
-Um editor de texto irá abrir para colocar uma mensagem clara sobre as mudanças
+Um editor de texto irá abrir para colocar uma mensagem clara sobre as mudanças.
+
+> Acesse [alterar o editor padrão do git](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration/#_core_editor), caso queira mudar o editor para incluir as mensagem de *commit*.
 
 Publicar as mudanças
 ```sh
@@ -130,12 +162,12 @@ Merge branch 'feature/documentation' into develop
 
 Resolver possíveis conflitos com a *branch* develop
 
-Publicar a develop
+Publicar as mudanças na develop
 ```sh
 git push
 ```
 
-Se a *branch* develop não existir remotamente ainda é necessário definir a referência no repositório remoto
+Se a *branch* develop não existir remotamente será necessário definir a referência no repositório remoto
 ```sh
 git push --set-upstream origin develop
 ```
@@ -147,7 +179,7 @@ git push
 
 ## 5. Criar uma nova versão
 
-Gerar uma nova *release* de acordo com a versionamento semântico **MAJOR**.*minor*.patch.
+Gerar uma nova *release* de acordo com a versionamento semântico **MAJOR**.*minor*.patch. Como estamos adicionando uma nova funcionalidade mantendo compatibilidade, alteramos o *minor*.
 ```sh
 git flow release start v0.1.0
 ```
@@ -156,6 +188,8 @@ Publicar a nova *release*
 ```sh
 git flow release publish v0.1.0
 ```
+
+> Caso sejam necessárias correções, de acordo com o versionamento semântico temos que alterar o `patch` da versão. Exemplo: `v0.1.1`.
 
 Homologar a nova funcionalidade e finalizar a versão
 ```sh
