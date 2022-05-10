@@ -352,6 +352,19 @@
     5. Criar uma nova versão
   </a>
   
+    <nav class="md-nav" aria-label="5. Criar uma nova versão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atualizar-a-versao-de-desenvolvimento" class="md-nav__link">
+    Atualizar a versão de desenvolvimento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -480,6 +493,19 @@
   <a href="#5-criar-uma-nova-versao" class="md-nav__link">
     5. Criar uma nova versão
   </a>
+  
+    <nav class="md-nav" aria-label="5. Criar uma nova versão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atualizar-a-versao-de-desenvolvimento" class="md-nav__link">
+    Atualizar a versão de desenvolvimento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -630,28 +656,58 @@ Um editor de texto irá abrir para colocar uma mensagem clara sobre as mudanças
 <p>Se a <em>branch</em> develop não existir remotamente será necessário definir a referência no repositório remoto
 <div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>git push --set-upstream origin develop
 </code></pre></div></p>
-<p>Publicar a develop
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>git push
-</code></pre></div></p>
 <h2 id="5-criar-uma-nova-versao">5. Criar uma nova versão</h2>
 <p>Gerar uma nova <em>release</em> de acordo com a versionamento semântico <strong>MAJOR</strong>.<em>minor</em>.patch. Como estamos adicionando uma nova funcionalidade mantendo compatibilidade, alteramos o <em>minor</em>.
-<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>git flow release start v0.1.0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>git flow release start v0.1.0
 </code></pre></div></p>
 <p>Publicar a nova <em>release</em>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>git flow release publish v0.1.0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>git flow release publish v0.1.0
 </code></pre></div></p>
 <blockquote>
 <p>Caso sejam necessárias correções, de acordo com o versionamento semântico temos que alterar o <code>patch</code> da versão. Exemplo: <code>v0.1.1</code>.</p>
 </blockquote>
+<hr />
+<p>Na ENACOM utilizamos a <em>branch</em> <code>staging</code> para a versão de homologação, portanto é necessário criar, atualizar com a release atual e publicar essa branch.</p>
+<p>Acessar a <em>branch</em> <code>staging</code>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>git checkout staging
+</code></pre></div></p>
+<p>Caso ela não exista, criar <em>branch</em> <code>staging</code>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>git branch staging
+</code></pre></div></p>
+<p>Todas as mudanças na release precisam ir para a <code>staging</code> também.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>git merge release/v0.1.0
+</code></pre></div></p>
+<p>Publicar as mudanças na staging
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>git push
+</code></pre></div></p>
+<p>Se a <em>branch</em> staging não existir remotamente será necessário definir a referência no repositório remoto
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>git push --set-upstream origin staging
+</code></pre></div></p>
+<hr />
 <p>Homologar a nova funcionalidade e finalizar a versão
-<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>git flow release finish v0.1.0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>git flow release finish v0.1.0
 </code></pre></div></p>
 <blockquote>
 <p>Escrever uma mensagem simples e explicativa das mudanças da release!</p>
 </blockquote>
 <p>Publicar as <em>tags</em>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>git push origin --tags
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>git push origin --tags
 </code></pre></div></p>
+<p>Publicar todas as mudanças</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>git checkout develop
+<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>git push
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>git checkout staging
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>git push
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>git checkout main
+<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a>git push
+</code></pre></div>
+<h3 id="atualizar-a-versao-de-desenvolvimento">Atualizar a versão de desenvolvimento</h3>
+<p>No início de um novo desenvolvimento é importante atualizar a versão semanticamente no arquivo de configuração <code>pyproject.toml</code>.</p>
+<blockquote>
+<p>Podemos aproveitar para melhorar os metadados do projeto também!</p>
+</blockquote>
 
               
             </article>
