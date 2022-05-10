@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "semantic_versioning"
-version = "0.3.0"
+version = "0.5.0"
 description = "Versionamento Semântico na prática."
 authors = ["André Rocha <andre.rocha@enacom.com.br>"]
 
