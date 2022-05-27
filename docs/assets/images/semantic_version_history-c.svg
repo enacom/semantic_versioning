@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 1050.4028 1318.0032"
+   width="3151.2083"
+   height="3954.0098"
+   id="svg1114"
+   sodipodi:docname="semantic_version_history-c.svg"
+   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1116"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.11313708"
+     inkscape:cx="950.17478"
+     inkscape:cy="1281.6311"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1114"
+     showguides="false" />
+  <!-- svg-source:excalidraw -->
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      @font-face {
+        font-family: &quot;Virgil&quot;;
+        src: url(&quot;https://excalidraw.com/Virgil.woff2&quot;);
+      }
+      @font-face {
+        font-family: &quot;Cascadia&quot;;
+        src: url(&quot;https://excalidraw.com/Cascadia.woff2&quot;);
+      }
+    </style>
+  </defs>
+  <g
+     transform="translate(440.80948,347.31845)"
+     id="g1108"
+     style="fill:#808080">
+    <text
+       x="0"
+       y="25"
+       font-family="'FG Virgil'"
+       font-size="28px"
+       fill="#000000"
+       text-anchor="start"
+       style="white-space:pre;fill:#808080"
+       direction="ltr"
+       id="text1106">AMBIENTES</text>
+  </g>
+  <g
+     transform="translate(332.9347,0.78515625)"
+     id="g1112"
+     style="fill:#808080">
+    <text
+       x="0"
+       y="25"
+       font-family="'FG Virgil'"
+       font-size="28px"
+       fill="#000000"
+       text-anchor="start"
+       style="white-space:pre;fill:#808080"
+       direction="ltr"
+       id="text1110">BRANCHS (RAMIFICAÇÕES)</text>
+  </g>
+  <g
+     id="g47728"
+     transform="translate(342.43748)">
+    <text
+       x="63.890137"
+       y="442.17389"
+       font-family="'FG Virgil'"
+       font-size="28px"
+       fill="#000000"
+       text-anchor="start"
+       style="white-space:pre;fill:#808080"
+       direction="ltr"
+       id="text1106-9">Início da história</text>
+    <g
+       id="g45800"
+       transform="translate(-186.42868,-265.22753)">
+      <g
+         id="g45784">
+        <g
+           stroke-linecap="round"
+           transform="translate(25.7983,776.98901)"
+           id="g684-2"
+           style="fill:#808080;stroke:#666666;stroke-opacity:1" />
+        <g
+           transform="translate(77.0483,891.93501)"
+           id="g688-0"
+           style="fill:#808080" />
+        <g
+           transform="translate(130.7983,948.93501)"
+           id="g692-3">
+          <g
+             id="g46336"
+             transform="translate(-3.3967387)">
+            <path
+               d="M -0.25,-2.35 C 111.8,-2.66 221.06,0.49 322.86,-0.43 M -1.22,0.05 C 100.27,-4.41 199.12,-3.6 323.56,1.16 M 321.48,0.54 C 319.74,98.95 323.27,192.99 319.9,275 M 321.67,1.53 c -2.82,109.17 -0.64,216.76 0.32,273.51 m -0.75,-3.3 c -113.84,3.39 -226.93,2.89 -322.19,3.21 m 322.96,-1.08 C 212.6,276.92 103.05,277.09 0.47,275.16 M -0.6,273.74 C -1.49,201.58 -1.66,125.19 2.82,-1.5 M 1.12,272.89 C 0.41,193.1 0.51,109.69 0.47,-1.53"
+               stroke="#000000"
+               stroke-width="1"
+               fill="none"
+               id="path682-7"
+               style="fill:#808080;stroke:#666666;stroke-opacity:1"
+               transform="translate(-104.99999,-171.946)" />
+            <text
+               x="0"
+               y="25"
+               font-family="'FG Virgil'"
+               font-size="28px"
+               fill="#000000"
+               text-anchor="start"
+               style="white-space:pre;fill:#808080"
+               direction="ltr"
+               id="text686-9"
+               transform="translate(-53.749984,-56.999998)">Desenvolvimento</text>
+            <text
+               x="0"
+               y="28"
+               font-family="'Cascadia Code'"
+               font-size="28px"
+               fill="#c92a2a"
+               text-anchor="start"
+               style="white-space:pre"
+               direction="ltr"
+               id="text690-6">v0.2.0</text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g45776">
+        <g
+           stroke-linecap="round"
+           transform="translate(302.0483,728.18501)"
+           id="g696-0"
+           style="fill:none;stroke:#666666;stroke-opacity:1">
+          <path
+             d="m 206.61,-0.65 c 60.74,54.33 119.35,108.1 208.15,187.09 M 206.88,0.7 c 44.34,37.58 88.5,76.62 206.48,184.64 m 1.68,1.1 C 358.89,232.48 303.91,284.39 206.1,368.34 M 414.48,185.51 c -50.39,43.36 -100.86,89.3 -207.88,183.77 m -0.77,-1.63 C 154.06,320.26 103.2,274.57 0.54,186.17 M 206.63,368.13 C 152.29,319.54 98.32,270.41 0.41,184.49 m 0.06,0.82 C 57.33,134.1 115.6,80.82 206.87,-0.15 M 0.72,185.08 C 78.46,116.37 154.39,46.82 207.14,0.15"
+             stroke="#000000"
+             stroke-width="1"
+             fill="none"
+             id="path694-6"
+             style="fill:none;stroke:#666666;stroke-opacity:1" />
+        </g>
+        <g
+           transform="translate(424.5483,889.18501)"
+           id="g700-2"
+           style="fill:#808080">
+          <text
+             x="0"
+             y="25"
+             font-family="'FG Virgil'"
+             font-size="28px"
+             fill="#000000"
+             text-anchor="start"
+             style="white-space:pre;fill:#808080"
+             direction="ltr"
+             id="text698-6">Homologação</text>
+        </g>
+        <g
+           transform="translate(463.2983,952.43501)"
+           id="g704-1">
+          <text
+             x="0"
+             y="28"
+             font-family="'Cascadia Code'"
+             font-size="28px"
+             fill="#e67700"
+             text-anchor="start"
+             style="white-space:pre"
+             direction="ltr"
+             id="text702-8">v0.1.0</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="g47709"
+     transform="translate(-239.61022,486.3787)">
+    <text
+       x="651.60785"
+       y="441.65674"
+       font-family="'FG Virgil'"
+       font-size="28px"
+       fill="#000000"
+       text-anchor="start"
+       style="white-space:pre;fill:#808080"
+       direction="ltr"
+       id="text1106-9-1">Final da história</text>
+    <g
+       id="g47687"
+       transform="translate(-1225.9032,-451.00878)">
+      <g
+         transform="translate(1519.8234,1076.5233)"
+         id="g712"
+         style="fill:#808080">
+        <text
+           x="0"
+           y="25"
+           font-family="'FG Virgil'"
+           font-size="28px"
+           fill="#000000"
+           text-anchor="start"
+           style="white-space:pre;fill:#808080"
+           direction="ltr"
+           id="text710">Desenvolvimento</text>
+      </g>
+      <g
+         transform="translate(1573.5734,1133.5233)"
+         id="g716">
+        <text
+           x="0"
+           y="28"
+           font-family="'Cascadia Code'"
+           font-size="28px"
+           fill="#c92a2a"
+           text-anchor="start"
+           style="white-space:pre"
+           direction="ltr"
+           id="text714">v0.3.0</text>
+      </g>
+      <g
+         transform="translate(1867.3234,1073.7733)"
+         id="g724"
+         style="fill:#808080">
+        <text
+           x="0"
+           y="25"
+           font-family="'FG Virgil'"
+           font-size="28px"
+           fill="#000000"
+           text-anchor="start"
+           style="white-space:pre;fill:#808080"
+           direction="ltr"
+           id="text722">Homologação</text>
+      </g>
+      <g
+         transform="translate(1906.0734,1137.0233)"
+         id="g728">
+        <text
+           x="0"
+           y="28"
+           font-family="'Cascadia Code'"
+           font-size="28px"
+           fill="#e67700"
+           text-anchor="start"
+           style="white-space:pre"
+           direction="ltr"
+           id="text726">v0.2.0</text>
+      </g>
+      <g
+         stroke-linecap="round"
+         transform="translate(1468.5734,961.57733)"
+         id="g708"
+         style="fill:#808080;stroke:#666666;stroke-opacity:1">
+        <path
+           d="M -0.96,-1.04 C 90.32,-1.51 185.81,-4.02 324.31,2.19 M 0.48,1.24 c 124.67,-4.6 250.22,-6.01 320.77,0 m -1.36,-3.17 c -1,77.56 -1.88,154.19 3.41,277.97 M 321.37,-1.22 c -1.01,60.98 0.62,118.93 2.67,275.59 m -1.1,-2.8 c -99.39,5.07 -194.16,5.05 -325.5,0.02 M 323.8,274 c -93.21,4.65 -184.76,2.21 -323.82,-0.66 M -1.72,274 C -1.65,207.3 -2.18,137.47 0.97,-0.41 M 0.27,275.6 C 0.2,196.98 0.27,121.23 0.04,-1.38"
+           stroke="#000000"
+           stroke-width="1"
+           fill="none"
+           id="path706"
+           style="fill:#808080;stroke:#666666;stroke-opacity:1" />
+      </g>
+      <g
+         stroke-linecap="round"
+         transform="translate(1744.8234,912.77333)"
+         id="g720"
+         style="fill:none;stroke:#666666;stroke-opacity:1">
+        <path
+           d="m 208.19,0.26 c 53,51.24 109.34,100.75 205.15,186.15 M 207.41,-0.09 c 69.67,61.63 139.92,124.06 205.91,185.19 m 0.17,-1.15 C 368.2,224.44 324.51,262.4 206.72,368.67 M 414.15,185.12 c -48.55,40.94 -95.3,81.9 -206.92,184.08 m -0.33,0.16 C 142.87,308.43 76.18,251.61 1.17,186.15 M 207.62,369.11 C 125.06,296.65 43.93,224.03 0.24,185.68 m 0.86,-1.1 C 51.46,140.4 101.12,94.33 206.86,-0.98 M -0.65,184.94 C 63.86,126.5 129.45,68.39 207.6,0.74"
+           stroke="#000000"
+           stroke-width="1"
+           fill="none"
+           id="path718"
+           style="fill:none;stroke:#666666;stroke-opacity:1" />
+      </g>
+      <g
+         stroke-linecap="round"
+         transform="translate(2191.1662,938.16753)"
+         id="g732"
+         style="stroke:#666666;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <path
+           d="m 323.75,161.87 c 0,4.04 -0.15,8.08 -0.45,12.1 -0.3,4.02 -0.76,8.04 -1.36,12.03 -0.6,3.99 -1.35,7.96 -2.25,11.9 -0.9,3.93 -1.94,7.84 -3.13,11.69 -1.19,3.85 -2.53,7.67 -4,11.42 -1.47,3.76 -3.09,7.47 -4.84,11.1 -1.75,3.63 -3.64,7.21 -5.66,10.7 -2.01,3.49 -4.17,6.92 -6.44,10.25 -2.27,3.33 -4.67,6.59 -7.19,9.74 -2.51,3.15 -5.15,6.22 -7.89,9.18 -2.74,2.95 -5.61,5.82 -8.56,8.56 -2.96,2.74 -6.03,5.38 -9.18,7.89 -3.15,2.52 -6.41,4.92 -9.74,7.19 -3.33,2.27 -6.76,4.43 -10.25,6.44 -3.49,2.02 -7.07,3.91 -10.7,5.66 -3.63,1.75 -7.34,3.37 -11.1,4.84 -3.75,1.47 -7.57,2.81 -11.42,4 -3.85,1.19 -7.76,2.23 -11.69,3.13 -3.94,0.9 -7.91,1.65 -11.9,2.25 -3.99,0.6 -8.01,1.06 -12.03,1.36 -4.02,0.3 -8.06,0.45 -12.1,0.45 -4.03,0 -8.07,-0.15 -12.09,-0.45 -4.02,-0.3 -8.04,-0.76 -12.03,-1.36 -3.99,-0.6 -7.96,-1.35 -11.9,-2.25 -3.93,-0.9 -7.84,-1.94 -11.69,-3.13 -3.85,-1.19 -7.67,-2.53 -11.42,-4 -3.76,-1.47 -7.47,-3.09 -11.1,-4.84 -3.63,-1.75 -7.21,-3.64 -10.7,-5.66 -3.49,-2.01 -6.92,-4.17 -10.25,-6.44 -3.33,-2.27 -6.59,-4.67 -9.74,-7.19 -3.15,-2.51 -6.22,-5.15 -9.18,-7.89 -2.95,-2.74 -5.82,-5.61 -8.56,-8.56 -2.74,-2.96 -5.38,-6.03 -7.89,-9.18 -2.52,-3.15 -4.92,-6.41 -7.19,-9.74 -2.27,-3.33 -4.43,-6.76 -6.44,-10.25 -2.02,-3.49 -3.91,-7.07 -5.66,-10.7 -1.75,-3.63 -3.37,-7.34 -4.84,-11.1 -1.47,-3.75 -2.81,-7.57 -4,-11.42 C 6,205.74 4.96,201.83 4.06,197.9 3.16,193.96 2.41,189.99 1.81,186 1.21,182.01 0.75,177.99 0.45,173.97 0.15,169.95 0,165.91 0,161.88 c 0,-4.04 0.15,-8.08 0.45,-12.1 0.3,-4.02 0.76,-8.04 1.36,-12.03 0.6,-3.99 1.35,-7.96 2.25,-11.9 0.9,-3.93 1.94,-7.84 3.13,-11.69 1.19,-3.85 2.53,-7.67 4,-11.42 1.47,-3.76 3.09,-7.47 4.84,-11.1 1.75,-3.63 3.64,-7.21 5.66,-10.7 2.01,-3.49 4.17,-6.92 6.44,-10.25 2.27,-3.33 4.67,-6.59 7.19,-9.74 2.51,-3.15 5.15,-6.22 7.89,-9.18 2.74,-2.95 5.61,-5.82 8.56,-8.56 2.96,-2.74 6.03,-5.38 9.18,-7.89 3.15,-2.52 6.41,-4.92 9.74,-7.19 3.33,-2.27 6.76,-4.43 10.25,-6.44 3.49,-2.02 7.07,-3.91 10.7,-5.66 3.63,-1.75 7.34,-3.37 11.1,-4.84 3.75,-1.47 7.57,-2.81 11.42,-4 3.85,-1.19 7.76,-2.23 11.69,-3.13 3.94,-0.9 7.91,-1.65 11.9,-2.25 3.99,-0.6 8.01,-1.06 12.03,-1.36 4.02,-0.3 8.06,-0.45 12.09,-0.45 4.04,0 8.08,0.15 12.1,0.45 4.02,0.3 8.04,0.76 12.03,1.36 3.99,0.6 7.96,1.35 11.9,2.25 3.93,0.9 7.84,1.94 11.69,3.13 3.85,1.19 7.67,2.53 11.42,4 3.76,1.47 7.47,3.09 11.1,4.84 3.63,1.75 7.21,3.64 10.7,5.66 3.49,2.01 6.92,4.17 10.25,6.44 3.33,2.27 6.59,4.67 9.74,7.19 3.15,2.51 6.22,5.15 9.18,7.89 2.95,2.74 5.82,5.61 8.56,8.56 2.74,2.96 5.38,6.03 7.89,9.18 2.52,3.15 4.92,6.41 7.19,9.74 2.27,3.33 4.43,6.76 6.44,10.25 2.02,3.49 3.91,7.07 5.66,10.7 1.75,3.63 3.37,7.34 4.84,11.1 1.47,3.75 2.81,7.57 4,11.42 1.19,3.85 2.23,7.76 3.13,11.69 0.9,3.94 1.65,7.91 2.25,11.9 0.6,3.99 1.06,8.01 1.36,12.03 0.3,4.02 0.45,8.06 0.45,12.09"
+           stroke="#000000"
+           stroke-width="1"
+           fill="none"
+           id="path730"
+           style="stroke:#666666;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(2294.9162,1075.6091)"
+         id="g736"
+         style="fill:#808080;fill-opacity:1;stroke:none;stroke-opacity:1">
+        <text
+           x="0"
+           y="25"
+           font-family="'FG Virgil'"
+           font-size="28px"
+           fill="#000000"
+           text-anchor="start"
+           style="white-space:pre;fill:#808080;fill-opacity:1;stroke:none;stroke-opacity:1"
+           direction="ltr"
+           id="text734">Produção</text>
+      </g>
+      <g
+         transform="translate(2309.4162,1137.0233)"
+         id="g740">
+        <text
+           x="0"
+           y="28"
+           font-family="'Cascadia Code'"
+           font-size="28px"
+           fill="#5c940d"
+           text-anchor="start"
+           style="white-space:pre"
+           direction="ltr"
+           id="text738">v0.1.0</text>
+      </g>
+    </g>
+  </g>
+  <g
+     id="g9726"
+     transform="translate(22.3255,-930.82899)">
+    <g
+       stroke-linecap="round"
+       transform="translate(2.276713,1151.4518)"
+       id="g606">
+      <path
+         d="m 17.59,1.4 177.02,-1.64 7.76,-0.25 6.16,4.79 4.66,10.04 0.18,40.3 -1.54,10.36 -3.81,4.65 -12.53,2.53 L 16.68,73.71 10.5,71.08 4.09,65.56 2.1,58.73 -1.34,15.52 3.17,5.7 12.36,3.04 19.13,-0.7"
+         stroke="none"
+         stroke-width="0"
+         fill="#fa5252"
+         id="path602" />
+      <path
+         d="m 18.5,0 m 0,0 c 63.87,-1.93 130.03,-2.48 177,0 m -177,0 c 70.8,1.71 139.99,1.92 177,0 m 0,0 c 12.93,-1.33 19.41,7.98 18.5,18.5 M 195.5,0 c 12.29,-1.62 17.26,5.19 18.5,18.5 m 0,0 c 0.18,12.42 1.72,27.29 0,37 m 0,-37 c 0.78,13.12 0.76,23.92 0,37 m 0,0 C 213.22,66.04 206.17,74.41 195.5,74 M 214,55.5 c 1.72,11.11 -4.25,17.15 -18.5,18.5 m 0,0 c -58.46,1.16 -118.24,0.9 -177,0 m 177,0 c -56.95,1.39 -113.63,1.26 -177,0 m 0,0 C 7.67,74.01 -0.39,67.21 0,55.5 M 18.5,74 C 6.63,75.49 1.57,67.88 0,55.5 m 0,0 C 0.75,42.22 -0.89,31.04 0,18.5 m 0,37 c -0.54,-8.41 0.92,-17.49 0,-37 m 0,0 C 1.32,6.33 7.46,-0.92 18.5,0 M 0,18.5 C 1.75,8.19 4.64,0.02 18.5,0"
+         stroke="#c92a2a"
+         stroke-width="4"
+         fill="none"
+         id="path604" />
+    </g>
+    <g
+       transform="translate(57.776715,1169.7375)"
+       id="g610">
+      <text
+         x="0"
+         y="25"
+         font-family="'FG Virgil'"
+         font-size="28px"
+         fill="#000000"
+         text-anchor="start"
+         style="white-space:pre;fill:#ffffff"
+         direction="ltr"
+         id="text608">develop</text>
+    </g>
+    <g
+       stroke-linecap="round"
+       transform="translate(363.27672,1151.4518)"
+       id="g616">
+      <path
+         d="m 17.61,-0.24 176.67,-1.4 8.47,2.47 6.11,3.97 4.22,8.5 -0.09,43.61 1.1,4.94 -7.33,7.73 -13.08,4.13 -175.09,-1.48 -6.7,-0.6 -7.48,-5.96 -5.75,-4.48 0.17,-45.95 7.74,-8.73 4.47,-6.05 8.71,0.97"
+         stroke="none"
+         stroke-width="0"
+         fill="#fab005"
+         id="path612" />
+      <path
+         d="m 18.5,0 m 0,0 c 66.17,-0.64 130.95,-0.64 177,0 m -177,0 c 42.56,-0.27 85.07,-1.79 177,0 m 0,0 c 13.25,1.81 18.46,4.76 18.5,18.5 M 195.5,0 c 11.09,-0.98 20.39,5.14 18.5,18.5 m 0,0 c 1.95,11.67 0.68,24.78 0,37 m 0,-37 c 1.18,7.19 -0.07,14.6 0,37 m 0,0 C 212.34,68.24 209.33,72.93 195.5,74 M 214,55.5 c 1.92,10.98 -5.5,20.27 -18.5,18.5 m 0,0 C 132.73,74.45 74,73.02 18.5,74 m 177,0 C 127.74,73.49 59.52,73.76 18.5,74 m 0,0 C 5.78,73.38 0.4,69.13 0,55.5 M 18.5,74 C 7.74,74.05 0.89,66.93 0,55.5 m 0,0 C -1.15,45.16 -1.29,32.98 0,18.5 m 0,37 C 1.05,42.29 0.9,28.47 0,18.5 m 0,0 C 1.29,5.24 7.69,1.76 18.5,0 M 0,18.5 C -1.52,6.19 6.49,2.23 18.5,0"
+         stroke="#e67700"
+         stroke-width="4"
+         fill="none"
+         id="path614" />
+    </g>
+    <g
+       transform="translate(373.06243,1172.4518)"
+       id="g620">
+      <text
+         x="0"
+         y="25"
+         font-family="'FG Virgil'"
+         font-size="28px"
+         fill="#000000"
+         text-anchor="start"
+         style="white-space:pre;fill:#ffffff"
+         direction="ltr"
+         id="text618">release/v0.3.0</text>
+    </g>
+    <g
+       stroke-linecap="round"
+       id="g634"
+       transform="translate(-53.938655,-1783.4833)">
+      <g
+         transform="translate(276.47556,2972.4676)"
+         id="g624">
+        <path
+           d="m -0.51,-0.2 c 23.03,-0.06 114.96,-0.86 137.94,-1.16 m -136,0.01 c 22.91,0.24 112.39,1.52 134.89,1.59"
+           stroke="#000000"
+           stroke-width="4"
+           fill="none"
+           id="path622" />
+      </g>
+      <g
+         transform="translate(276.47556,2972.4676)"
+         id="g628">
+        <path
+           d="m 107.7,9.72 c 7.35,-2.39 13.07,-5.16 30.03,-8.24 m -30.61,8.61 c 6.98,-2.61 13.7,-4.46 30.1,-10.41"
+           stroke="#000000"
+           stroke-width="4"
+           fill="none"
+           id="path626" />
+      </g>
+      <g
+         transform="translate(276.47556,2972.4676)"
+         id="g632">
+        <path
+           d="m 107.9,-10.8 c 7.13,2.52 12.81,4.65 29.83,12.28 m -30.41,-11.91 c 6.93,1.75 13.61,4.27 29.9,10.11"
+           stroke="#000000"
+           stroke-width="4"
+           fill="none"
+           id="path630" />
+      </g>
+    </g>
+    <g
+       stroke-linecap="round"
+       id="g648"
+       transform="translate(-53.938655,-1783.4833)">
+      <g
+         transform="translate(642.50108,2973.6827)"
+         id="g638">
+        <path
+           d="M -0.2,-0.31 C 18.6,-0.73 93.26,-2.56 111.82,-3.05 M -1.76,-1.52 c 18.74,-0.21 94.04,-0.07 112.69,-0.19"
+           stroke="#000000"
+           stroke-width="4"
+           fill="none"
+           id="path636" />
+      </g>
+      <g
+         transform="translate(642.50108,2973.6827)"
+         id="g642">
+        <path
+           d="M 82.24,8.78 C 88.31,5.54 94.07,5.56 112.18,-3.46 M 82.62,8.65 c 7.79,-2.14 16.5,-5.07 27.76,-11.18"
+           stroke="#000000"
+           stroke-width="4"
+           fill="none"
+           id="path640" />
+      </g>
+      <g
+         transform="translate(642.50108,2973.6827)"
+         id="g646">
+        <path
+           d="m 82.2,-11.74 c 5.99,1.23 11.76,5.72 29.98,8.28 m -29.61,-8.41 c 7.62,4.01 16.35,7.23 27.81,9.34"
+           stroke="#000000"
+           stroke-width="4"
+           fill="none"
+           id="path644" />
+      </g>
+    </g>
+    <g
+       stroke-linecap="round"
+       transform="translate(705.27672,1155.4518)"
+       id="g654">
+      <path
+         d="m 17.66,-0.33 177.32,0.51 7.99,0.11 5.39,5.74 6.6,6.39 -0.97,41.26 -2.96,9.63 -4.16,6.32 -9.88,3.16 L 20.31,72.89 8.78,74.2 1.15,67.85 2.24,61.72 0.92,13.47 5.88,6.05 11.7,0.83 17.71,1.65"
+         stroke="none"
+         stroke-width="0"
+         fill="#82c91e"
+         id="path650" />
+      <path
+         d="m 18.5,0 m 0,0 c 40.04,2.97 83.77,1.53 177,0 m -177,0 c 68.59,2.08 136.24,0.47 177,0 m 0,0 c 11.26,-0.85 20.14,5.27 18.5,18.5 M 195.5,0 c 13.3,0.4 16.53,8.33 18.5,18.5 m 0,0 c -1.7,11.05 1.88,20.29 0,37 m 0,-37 c -0.98,9.23 0.6,17.52 0,37 m 0,0 c 1.67,11.16 -5.59,20.04 -18.5,18.5 M 214,55.5 c 1.02,12.06 -5.74,16.44 -18.5,18.5 m 0,0 c -52.38,-0.82 -108.49,0.06 -177,0 m 177,0 C 147,73.69 99.09,74.65 18.5,74 m 0,0 C 7.53,74.04 0.78,67.05 0,55.5 M 18.5,74 C 6.08,74.7 -0.85,66.64 0,55.5 m 0,0 C 1.55,41.95 1.25,32.62 0,18.5 m 0,37 C 0.4,42.63 0.52,31.57 0,18.5 m 0,0 C -1.32,6.19 6.45,1.94 18.5,0 M 0,18.5 C 1.07,4.67 6.69,1.62 18.5,0"
+         stroke="#5c940d"
+         stroke-width="4"
+         fill="none"
+         id="path652" />
+    </g>
+    <g
+       transform="translate(779.77672,1167.2375)"
+       id="g658">
+      <text
+         x="0"
+         y="33"
+         font-family="'FG Virgil'"
+         font-size="36px"
+         fill="#000000"
+         text-anchor="start"
+         style="white-space:pre;fill:#ffffff"
+         direction="ltr"
+         id="text656">main</text>
+    </g>
+    <g
+       stroke-linecap="round"
+       transform="translate(898.27672,1203.4518)"
+       id="g664">
+      <path
+         d="m 39.62,0.89 c 8.49,-1.84 21.01,-1.98 30.37,-0.39 9.37,1.59 19.68,5.72 25.81,9.91 6.14,4.2 10,10.1 10.99,15.26 0.99,5.16 -0.76,11.43 -5.04,15.69 -4.27,4.26 -12.47,7.55 -20.61,9.86 C 73,53.54 62.45,55.12 52.91,55.26 43.36,55.39 31.84,54.71 23.87,52.02 15.91,49.33 9.01,43.82 5.11,39.11 1.21,34.39 -1.18,28.65 0.48,23.74 2.14,18.82 7.83,13.57 15.08,9.63 22.34,5.68 38.38,1.67 44,0.07 c 5.63,-1.59 4.48,-0.42 4.83,0 M 38.16,2.55 c 8.45,-2.13 21.16,-3.9 30.62,-2.54 9.45,1.35 19.69,6.91 26.11,10.65 6.41,3.75 11.09,7.18 12.39,11.83 1.3,4.65 -0.91,11.38 -4.59,16.07 -3.68,4.69 -9.64,9.11 -17.5,12.06 -7.85,2.95 -19.49,5.2 -29.64,5.64 C 45.4,56.69 32.8,55.84 24.3,53.22 15.8,50.6 8.58,45.54 4.54,40.53 0.49,35.51 -1.52,27.99 0.04,23.13 1.6,18.27 7.39,15.14 13.91,11.35 20.43,7.57 35.23,2.25 39.19,0.43 c 3.95,-1.81 -1.4,-0.6 -1.55,0.03"
+         stroke="#5c940d"
+         stroke-width="2"
+         fill="none"
+         id="path662" />
+    </g>
+    <g
+       transform="translate(919.27672,1218.4518)"
+       id="g668">
+      <text
+         x="0"
+         y="20"
+         font-family="'Cascadia Code'"
+         font-size="20px"
+         fill="#000000"
+         text-anchor="start"
+         style="white-space:pre;fill:#82c91e;fill-opacity:1"
+         direction="ltr"
+         id="text666">v0.3.0</text>
+    </g>
+  </g>
+  <g
+     transform="translate(90.23336,69.563194)"
+     id="g862"
+     style="fill:#808080">
+    <text
+       x="0"
+       y="25"
+       font-family="'FG Virgil'"
+       font-size="28px"
+       fill="#000000"
+       text-anchor="start"
+       style="white-space:pre;fill:#808080"
+       direction="ltr"
+       id="text856">- História C: desenvolvimento de uma nova funcionalidade</text>
+    <text
+       x="0"
+       y="61"
+       font-family="'FG Virgil'"
+       font-size="28px"
+       fill="#000000"
+       text-anchor="start"
+       style="white-space:pre;fill:#808080"
+       direction="ltr"
+       id="text858">- homologação da funcionalidade da história B</text>
+    <text
+       x="0"
+       y="97"
+       font-family="'FG Virgil'"
+       font-size="28px"
+       fill="#000000"
+       text-anchor="start"
+       style="white-space:pre;fill:#808080"
+       direction="ltr"
+       id="text860">- funcionalidade da história A disponível em produção</text>
+  </g>
+</svg>
