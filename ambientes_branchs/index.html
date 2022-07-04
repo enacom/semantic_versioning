@@ -8,19 +8,19 @@
       
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.14">
     
     
       
-        <title>Versionamento Semântico na prática</title>
+        <title>Ambientes e branchs - Versionamento Semântico na prática</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.3de6f41f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.3de6f41f.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.cc9b2e1e.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
         
       
     
@@ -35,7 +35,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,6 +62,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#ambientes-e-branchs" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -72,9 +77,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href="/." title="Versionamento Semântico na prática" class="md-header__button md-logo" aria-label="Versionamento Semântico na prática" data-md-component="logo">
+    <a href=".." title="Versionamento Semântico na prática" class="md-header__button md-logo" aria-label="Versionamento Semântico na prática" data-md-component="logo">
       
-  <img src="/assets/images/logo.svg" alt="logo">
+  <img src="../assets/images/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -90,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Ambientes e branchs
             
           </span>
         </div>
@@ -191,9 +196,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Versionamento Semântico na prática" class="md-nav__button md-logo" aria-label="Versionamento Semântico na prática" data-md-component="logo">
+    <a href=".." title="Versionamento Semântico na prática" class="md-nav__button md-logo" aria-label="Versionamento Semântico na prática" data-md-component="logo">
       
-  <img src="/assets/images/logo.svg" alt="logo">
+  <img src="../assets/images/logo.svg" alt="logo">
 
     </a>
     Versionamento Semântico na prática
@@ -221,7 +226,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         Versionamento semântico
       </a>
     </li>
@@ -234,11 +239,99 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/ambientes_branchs/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Ambientes e branchs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Ambientes e branchs
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#gateway" class="md-nav__link">
+    Gateway
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-atualizar-os-ambientes" class="md-nav__link">
+    Como atualizar os ambientes
+  </a>
+  
+    <nav class="md-nav" aria-label="Como atualizar os ambientes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-desenvolvimento" class="md-nav__link">
+    Ambiente de desenvolvimento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-homologacao" class="md-nav__link">
+    Ambiente de homologação
+  </a>
+  
+    <nav class="md-nav" aria-label="Ambiente de homologação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atencao-ao-versionamento-semantico" class="md-nav__link">
+    ATENÇÃO AO VERSIONAMENTO SEMÂNTICO!
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-producao" class="md-nav__link">
+    Ambiente de produção
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -251,7 +344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pratica/" class="md-nav__link">
+      <a href="../pratica/" class="md-nav__link">
         Prática
       </a>
     </li>
@@ -266,7 +359,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/roteiro/" class="md-nav__link">
+      <a href="../roteiro/" class="md-nav__link">
         Roteiro
       </a>
     </li>
@@ -290,6 +383,70 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#gateway" class="md-nav__link">
+    Gateway
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-atualizar-os-ambientes" class="md-nav__link">
+    Como atualizar os ambientes
+  </a>
+  
+    <nav class="md-nav" aria-label="Como atualizar os ambientes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-desenvolvimento" class="md-nav__link">
+    Ambiente de desenvolvimento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-homologacao" class="md-nav__link">
+    Ambiente de homologação
+  </a>
+  
+    <nav class="md-nav" aria-label="Ambiente de homologação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atencao-ao-versionamento-semantico" class="md-nav__link">
+    ATENÇÃO AO VERSIONAMENTO SEMÂNTICO!
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-producao" class="md-nav__link">
+    Ambiente de produção
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -300,8 +457,116 @@
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
+                
+  <a href="https://github.com/enacom/semantic_versioning/edit/master/docs/ambientes_branchs.md" title="Editar esta página" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
 
+
+
+<h1 id="ambientes-e-branchs">Ambientes e branchs</h1>
+<h2 id="gateway">Gateway</h2>
+<p>No Gateway os ambientes estão relacionados às <em>branchs</em> da seguinte maneira:</p>
+<ul>
+<li>Ambiente de devenvolvimento: <em>branch develop</em></li>
+<li>Ambiente de homologação: <em>branch staging</em></li>
+<li>Ambiente de produção: <em>branch master</em></li>
+</ul>
+<blockquote>
+<p><em>branch master</em> deveria se chamar <em>main</em>. Para uma mudança futura:</p>
+<p><a href="https://git-scm.com/book/en/v2/Git-Branching-Branch-Management#_changing_the_master_branch_name">Branch Management - Changing the master branch name</a></p>
+</blockquote>
+<h2 id="como-atualizar-os-ambientes">Como atualizar os ambientes</h2>
+<h3 id="ambiente-de-desenvolvimento">Ambiente de desenvolvimento</h3>
+<ol>
+<li>Acesse o repositório do gateway</li>
+<li>Mude para a <em>branch develop</em>: <code>git checkout develop</code></li>
+<li>Atualize a <em>branch develop</em>: <code>git pull</code></li>
+<li>Mude as versões das dependências no arquivo <code>requirements.txt</code></li>
+<li>Aceite as modificações: <code>git add requirements.txt</code></li>
+<li>Confirme as modificações: <code>git commit</code></li>
+<li>Escreva uma mensagem explicando as modificações</li>
+<li>Publique as modificações: <code>git push</code></li>
+</ol>
+<p>A partir da publicação o <em>pipeline</em> do ambiente de desenvolvimento será iniciado. Quando o <em>pipeline</em> for completado estará disponível um ambiente atualizado.</p>
+<h3 id="ambiente-de-homologacao">Ambiente de homologação</h3>
+<ol>
+<li>Acesse o repositório do gateway</li>
+<li>Mude para a <em>branch staging</em>: <code>git checkout staging</code></li>
+<li>Atualize a <em>branch staging</em>: <code>git pull</code></li>
+<li>Verifique qual a última versão gerada: <code>git tag</code><blockquote>
+<p>Atenção à ordem das versões, são ordenadas como texto.</p>
+<p>Exemplo, a última versão é a <strong>3.11.5</strong> e não a <em>3.9.0</em>:</p>
+<ul>
+<li>3.1.0</li>
+<li>3.10.0</li>
+<li>3.11.0</li>
+<li>3.11.1</li>
+<li>3.11.2</li>
+<li>3.11.3</li>
+<li>3.11.4</li>
+<li><strong>3.11.5</strong></li>
+<li>3.2.0</li>
+<li>3.3.0</li>
+<li>3.4.0</li>
+<li>3.5.0</li>
+<li>3.6.0</li>
+<li>3.7.0</li>
+<li>3.8.0</li>
+<li><em>3.9.0</em></li>
+</ul>
+</blockquote>
+</li>
+<li>Verifique a última <em>release</em> que foi incorporada à <em>staging</em>: <code>git log</code><blockquote>
+<p>Merge branch 'release/3.11.6'</p>
+</blockquote>
+</li>
+<li>Finalize essa <em>release</em> se ela ainda estiver aberta para que os códigos que estão em homologação possam ir para a produção: <code>git flow finish release 3.11.6</code><blockquote>
+<p>Uma nova etiqueta (com o número da versão) será gerada e é muito importante publicá-la:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git push origin --tags
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="m">3</span>.11.5 -&gt; <span class="m">3</span>.11.5
+</code></pre></div>
+</blockquote>
+</li>
+<li>Inicie uma nova release para que os códigos que estão em desenvolvimento possam ir para homologação: <code>git flow start release 3.12.0</code>, considerando uma nova funcionalidade mantendo compatibilidade.</li>
+<li>Incorpore a nova <em>release</em> à <em>staging</em>: <code>git merge release/3.12.0</code></li>
+<li>Publique as <em>branchs</em> atualizadas:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git push --all
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>develop -&gt; develop
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>staging -&gt; staging
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>master -&gt; master
+</code></pre></div>
+A partir da publicação o <em>pipeline</em> dos ambientes de desenvolvimento, homologação e produção serão iniciados. Quando os <em>pipelines</em> forem completados estarão disponíveis ambientes atualizados.</li>
+</ol>
+<h4 id="atencao-ao-versionamento-semantico">ATENÇÃO AO VERSIONAMENTO SEMÂNTICO!</h4>
+<p>Referência: <a href="https://semver.org/">Semantic Versioning 2.0.0</a></p>
+<p>Dado um número de versão <strong>MAJOR</strong>.<em>MINOR</em>.PATCH, incremente a:</p>
+<div class="highlight"><pre><span></span><code>versão Maior(MAJOR): quando fizer mudanças incompatíveis,
+versão Menor(MINOR): quando adicionar funcionalidades mantendo compatibilidade,
+versão de Correção(PATCH): quando corrigir falhas mantendo compatibilidade.
+</code></pre></div>
+<p>Sob este esquema, os números de versão e a forma como eles mudam transmitem o significado do código subjacente e o que foi modificado de uma versão para a próxima.</p>
+<hr />
+<h3 id="ambiente-de-producao">Ambiente de produção</h3>
+<ol>
+<li>Acesse o repositório do gateway</li>
+<li>Mude para a <em>branch master</em>: <code>git checkout master</code></li>
+<li>Atualize a <em>branch master</em>: <code>git pull</code></li>
+<li>Finalize a <em>release</em> aberta para que os códigos que estão em homologação possam ir para a produção: <code>git flow finish release 3.12.0</code><blockquote>
+<p>Uma nova etiqueta (com o número da versão) será gerada e é muito importante publicá-la:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git push origin --tags
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="m">3</span>.12.0 -&gt; <span class="m">3</span>.12.0
+</code></pre></div>
+</blockquote>
+</li>
+<li>Publique as <em>branchs</em> atualizadas:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git push --all
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>master -&gt; master
+</code></pre></div>
+A partir da publicação o <em>pipeline</em> do ambiente de produção será iniciado. Quando o <em>pipeline</em> for completado estará disponível um ambiente atualizado.</li>
+</ol>
+
+              
             </article>
           </div>
         </div>
@@ -309,6 +574,41 @@
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé">
+      
+        
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Anterior: Versionamento semântico" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Versionamento semântico
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../pratica/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Prática" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              Prática
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -346,10 +646,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de Transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de Transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Perdido", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de Transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de Transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Perdido", "select.version.title": "Selecione a vers\u00e3o"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.c2e1ee47.min.js"></script>
+      <script src="../assets/javascripts/bundle.c2e1ee47.min.js"></script>
       
     
   </body>
